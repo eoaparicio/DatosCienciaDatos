@@ -1,0 +1,16 @@
+{% block contenido %}
+	<h1>Formulario</h1>
+    <form action="resultado" method="post" name="form_datos">
+        Feature 1: <input type="text" name="feature1" /><br><br>
+		Feature 2: <input type="text" name="feature2" /><br><br>
+		Feature 3: <input type="text" name="feature3" /><br><br>
+		Feature 4: 
+		<select name="feature4">
+			<option>10</option>
+			<option>20</option>
+			<option>30</option>
+		</select> <br><br>
+		
+        <input type="submit" name="procesar" value="Procesar" />
+    </form>
+{% endblock %}

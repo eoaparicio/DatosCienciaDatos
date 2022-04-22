@@ -1,0 +1,11 @@
+{% block contenido %}
+	<h1>Formulario</h1>
+    <form action="resultado" method="post">
+        sepal_length: <input type="text" name="sepal_length" /><br><br>
+		sepal_width: <input type="text" name="sepal_width" /><br><br>
+		petal_length: <input type="text" name="petal_length" /><br><br>
+		petal_width: <input type="text" name="petal_width" /><br><br>
+		
+        <input type="submit" name="procesar" value="Procesar" />
+    </form>
+{% endblock %}
